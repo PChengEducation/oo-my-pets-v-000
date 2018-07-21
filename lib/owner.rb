@@ -17,7 +17,7 @@ attr_accessor :name
   end
 
   def self.count
-    @@owners.count
+    @@owners.length
   end
   # code goes here
 end #end of the Owner class
