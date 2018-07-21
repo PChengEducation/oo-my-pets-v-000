@@ -1,9 +1,11 @@
 class Owner
 
 #attr_accessor :name
+attr_reader :species
 @@owners = []
 
-  def initialize()
+  def initialize(species)
+    @species = species
     @@owners << self
   end
 
