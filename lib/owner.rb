@@ -9,6 +9,11 @@ attr_reader :species
     @@owners << self
   end
 
+  def say_species
+    puts "#{@species}"
+  end
+
+
   def self.all
     @@owners
   end
