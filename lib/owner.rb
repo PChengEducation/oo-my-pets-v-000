@@ -1,6 +1,6 @@
 class Owner
 
-attr_accessor :name
+#attr_accessor :name
 @@owners = []
 
   def initialize()
