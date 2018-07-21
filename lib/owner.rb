@@ -1,9 +1,10 @@
 class Owner
 
 attr_accessor :name
+@@owners = []
 
   def initialize()
-    @@owners = []
+
     @@owners << self
   end
 
