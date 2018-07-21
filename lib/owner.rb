@@ -1,3 +1,22 @@
 class Owner
+
+attr_accessor :name
+
+  def initialize()
+    @@owners = []
+    @@owners << self
+  end
+
+  def self.all
+    @@owners
+  end
+
+  def self.reset_all
+    @@owners.clear
+  end
+
+  def self.count
+    @@owners.count
+  end
   # code goes here
-end
+end #end of the Owner class
