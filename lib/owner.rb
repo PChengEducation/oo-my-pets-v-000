@@ -3,7 +3,8 @@ class Owner
 #attr_accessor :name
 @@owners = []
 
-  def initialize()
+  def initialize(owner)
+    self = owner
     @@owners << self
   end
 
